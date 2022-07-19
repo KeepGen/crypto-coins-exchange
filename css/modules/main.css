@@ -1,0 +1,84 @@
+.main {
+    padding: 127px 0;
+    background-image: url('/img/hero-bg.png');
+    background-size: cover;
+    background-position: top right;
+    max-height: 540px;
+}
+.main__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    margin-bottom: 50px;
+}
+.main__title {
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 121px;
+    color: #55C2FF;
+    margin-bottom: 18px;
+}
+.main__description {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.main__btn {
+    width: 232px;
+    background: #55C2FF;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 8px;
+    padding: 11px 0;
+}
+@media (max-width: 1024px) {
+    .main {
+        padding: 92px 0;
+        background-position: top center;
+        max-height: 450px;
+    }
+    .main__wrapper {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 768px) {
+    .main {
+        padding: 78px 0;
+        background-position: top center;
+        max-height: 350px;
+    }
+    .main__wrapper {
+        width: 354px;
+        margin-bottom: 24px;
+    }
+    .main__title {
+        font-size: 60px;
+        line-height: 73px;
+    }
+    .main__description {
+        font-size: 16px;
+        line-height: 21px;
+    }
+}
+@media (max-width: 480px) {
+    .main {
+        padding: 37px 0;
+        max-height: 260px;
+    }
+    .main__wrapper {
+        width: 230px;
+    }
+    .main__title {
+        margin-bottom: 10px;
+    }
+    .main__btn {
+        width: 188px;
+        padding: 10px 0;
+    }
+}
